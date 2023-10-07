@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yoummariser</title>
+        <style>
+
+            h1 {
+                text-align: center;
+            }
+            body {
+                background-color: lightgray;
+                width: max-content;
+                max-width: 800px;
+            }
+            button {
+                background-color: red;
+                font-family: Geneva, Verdana, sans-serif;
+                color: white;
+                border-radius: 8px;
+                width: max-content;
+                height: max-content;
+                padding: 10px;
+                font-size: large;
+                margin: auto;
+                display: block;
+                border-color: coral;
+                border-radius: 20px;
+            }
+            button[disabled] {
+                background-color: lightcoral;
+                font-family: Geneva, Verdana, sans-serif;
+                color: white;
+                border-radius: 8px;
+                width: max-content;
+                height: max-content;
+                padding: 10px;
+                font-size: large;
+                margin: auto;
+                display: block;
+                border-color: lightpink;
+                border-radius: 20px;
+            }
+            button:hover{
+                background-color: crimson;
+            }
+            p {
+                background-color: lightgray;
+                border: 1px solid #ccc;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+                padding: 20px;
+                border-radius: 8px;
+                max-width: 300px;
+                text-align: center;
+                font-family: Arial, sans-serif;
+                font-size: 16px;
+                color: #222;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>Yoummarizer</h1>
+        <button id="summarise" type="button">Summarize</button>
+        <br/>
+        <p id="output"></p>
+        <script src="popup.js"></script>
+    </body>
+</html>
